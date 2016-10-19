@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Models
+{
+    class Persoana
+    {
+    };
+     class Profesor : public Persoana
+    {
+        private string name;
+        public string nume
+      {
+        get{return name;}
+        set {name=value;}
+      }
+    
+    };
+    class Student : public Persoana
+   {
+          private string name;
+          public string Nume
+          {
+          get {return name;}
+          set {name=value;}
+          }
+    };
+    
+    class Decanat
+    {
+    private string discp;
+    public string Disciplina
+      {
+          get {return discp;}
+          set {discp=value;}
+      }
+    }
+}
